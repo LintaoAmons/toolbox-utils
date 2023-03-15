@@ -1,11 +1,11 @@
-package toolboxutils
+package random
 
 import (
 	"math/rand"
 	"time"
 )
 
-func RandomString(options []string) string {
+func RandomPick(options []string) string {
 	rand.Seed(time.Now().UnixNano())
 	return options[rand.Intn(len(options))]
 }
