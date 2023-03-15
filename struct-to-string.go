@@ -25,7 +25,7 @@ func StructToString(s interface{}) string {
 			parts = append(parts, fieldString)
 		} else {
 			// Convert the field value to a string and add it to the parts slice
-			fieldString := fmt.Sprintf("'%v'", fieldValue.Interface())
+			fieldString := fmt.Sprintf("'%v'::", fieldValue.Interface())
 			parts = append(parts, fieldString)
 		}
 	}
