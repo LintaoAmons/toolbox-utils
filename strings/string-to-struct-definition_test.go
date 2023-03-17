@@ -1,10 +1,10 @@
-package toolboxutils_test
+package strings_test
 
 import (
 	"fmt"
 	"testing"
 
-	toolboxutils "github.com/LintaoAmons/toolbox-utils"
+	toolboxutils "github.com/LintaoAmons/toolbox-utils/strings"
 	"github.com/atotto/clipboard"
 )
 

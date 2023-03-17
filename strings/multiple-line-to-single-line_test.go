@@ -1,9 +1,9 @@
-package toolboxutils_test
+package strings_test
 
 import (
 	"testing"
 
-	toolboxutils "github.com/LintaoAmons/toolbox-utils"
+	toolboxutils "github.com/LintaoAmons/toolbox-utils/strings"
 )
 
 func TestMultilineToSingleline(t *testing.T) {

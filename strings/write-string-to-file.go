@@ -1,4 +1,4 @@
-package toolboxutils
+package strings
 
 import (
     "bufio"

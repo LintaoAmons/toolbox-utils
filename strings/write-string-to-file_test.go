@@ -1,11 +1,11 @@
-package toolboxutils_test
+package strings_test
 
 import (
 	"io/ioutil"
 	"os"
 	"testing"
 
-	toolboxutils "github.com/LintaoAmons/toolbox-utils"
+	toolboxutils "github.com/LintaoAmons/toolbox-utils/strings"
 )
 
 func TestWriteStringToFile(t *testing.T) {

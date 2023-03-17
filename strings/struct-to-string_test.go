@@ -1,11 +1,11 @@
-package toolboxutils_test
+package strings_test
 
 import (
 	"fmt"
 	"testing"
 	"time"
 
-	toolboxutils "github.com/LintaoAmons/toolbox-utils"
+	toolboxutils "github.com/LintaoAmons/toolbox-utils/strings"
 )
 
 func TestStructToStringWithTime(t *testing.T) {
